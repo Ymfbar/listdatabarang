@@ -80,7 +80,7 @@ if (!isset($_SESSION['user_id'])) {
 <body>
 
 <div class="sidebar">
-  <h4>List Data Barang</h4>
+  <h4>Do Tu Du</h4>
   <a href="/listdatabarang/"><i class="bi bi-house"></i> <span class="text">Dashboard</span></a>
   <a href="/listdatabarang/kategori/"><i class="bi bi-tags"></i> <span class="text">Kategori</span></a>
   <a href="/listdatabarang/databarang/"><i class="bi bi-handbag"></i> <span class="text">Data Barang</span></a>
