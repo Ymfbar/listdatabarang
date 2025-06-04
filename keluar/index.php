@@ -9,7 +9,7 @@ include '../header.php';
         <tr>
             <th>No</th>
             <th>Nama Barang</th>
-            <th>Tanggal Masuk</th>
+            <th>Tanggal Keluar</th>
             <th>Jumlah</th>
             <th>Keterangan</th>
             <th>Aksi</th>

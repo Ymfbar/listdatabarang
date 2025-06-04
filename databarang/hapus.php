@@ -8,9 +8,9 @@ if (!isset($_GET['id']) || !is_numeric($_GET['id'])) {
 }
 
 $id = intval($_GET['id']);
-$table = basename(dirname(__FILE__)); // otomatis deteksi nama folder sebagai nama tabel
+$table = "data_barang"; // Hardcode nama tabel sesuai permintaan
 
-// Validasi nama tabel jika perlu keamanan tambahan
+// ✅ Tambahkan 'databarang' ke whitelist
 $allowed_tables = ['kategori', 'data_barang', 'supplier', 'masuk', 'keluar'];
 if (!in_array($table, $allowed_tables)) {
     echo '<div class="alert alert-danger container mt-5">Tabel tidak diizinkan.</div>';
