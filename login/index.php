@@ -13,7 +13,7 @@ session_start();
 
   <div class="container d-flex justify-content-center align-items-center min-vh-100">
     <div class="col-md-4 bg-white p-4 rounded shadow">
-      <h2 class="mb-4 text-center">Login</h2>
+      <h2 class="mb-4 text-center">Do Tu Du</h2>
       <form method="POST">
         <input type="text" name="username" class="form-control mb-2" placeholder="Username" required>
         <input type="password" name="password" class="form-control mb-2" placeholder="Password" required>
