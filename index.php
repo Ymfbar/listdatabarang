@@ -5,7 +5,7 @@ include 'header.php';
 
 <div class="container mt-5">
   <div class="text-center mb-4">
-    <h2 class="fw-bold">Dashboard List Data Barang</h2>
+    <h2 class="fw-bold">Do Tu Du</h2>
     <p class="text-muted">Kelola data barang dengan mudah</p>
   </div>
 
